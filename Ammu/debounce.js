@@ -2,10 +2,10 @@ let { spawn } = require('child_process');
 let handler = async (m, { conn }) => {
   if (!process.send) throw 'Dont: node main.js\nDo: node index.js'
   if (global.conn.user.jid == conn.user.jid) {
-    await m.reply(' *RESTARTING AMMU...\nPLEASE WAIT...*')
+    await m.reply(' *RESTARTING TERROR GIRL...\nPLEASE WAIT...*')
     await global.db.write()
     process.send('reset')
-  } else throw '_Ammu..._'
+  } else throw '_Terror Queen..._'
 }
 handler.help = ['debounce' + (process.send ? '' : ' (Does not work)')]
 handler.tags = ['host']

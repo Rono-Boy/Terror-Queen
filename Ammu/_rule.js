@@ -22,7 +22,7 @@ let handler = async (m, { conn }) => {
 2. If you violate the rules number 1, 2, 3 then you can get banned from bots
 4. If you violate rule number 3 (insulting) then you will be picked up at your respective homes
 `.trim()
-    await conn.send2ButtonLoc(m.chat, await (await fetch("https://raw.githubusercontent.com/DEVILSER/DEVILSER/main/Media/Ammu/Ammukutty-407x400.png")).buffer(), devil, '© ꪶ͢ᴅᴇᴠɪʟꜱᴇʀꫂ⁩', 'ᴍᴇɴᴜ', '.? menu', 'ᴏᴡɴᴇʀ', ',owner' )
+    await conn.send2ButtonLoc(m.chat, await (await fetch("https://i.imgur.com/P0qyv4Q.jpeg")).buffer(), KING AS, '© ꪶ͢ᴋɪɴɢ ᴀsꫂ⁩', 'ᴍᴇɴᴜ', '.? menu', 'ᴏᴡɴᴇʀ', ',owner' )
 }
 handler.tags = ['main']
 handler.help = ['rules']
