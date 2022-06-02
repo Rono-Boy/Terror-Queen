@@ -1,5 +1,5 @@
 {
-  "name": "Ammu",
+  "name": "Terror-Queen",
   "version": "1.1.2",
   "description": "WhatsApp Bot",
   "main": "index.js",
@@ -14,17 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/D-E-V-I-L-8/Ammu.git"
+    "url": "git+https://github.com/Rono-Boy/Terror-Queen.git"
   },
   "keywords": [
     "whatsapp-bot"
   ],
-  "author": "D-E-V-I-L-8",
+  "author": "Rono-Boy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/D-E-V-I-L-8/Ammu/issues"
+    "url": "https://github.com/Rono-Boy/Terror-Queen/issues"
   },
-  "homepage": "https://github.com/D-E-V-I-L-8/Ammu",
+  "homepage": "https://github.com/Rono-Boy/Terror-Queen",
   "dependencies": {
     "@adiwajshing/baileys": "github:D-E-V-I-L-8/baileys",
     "awesome-phonenumber": "^2.54.0",
