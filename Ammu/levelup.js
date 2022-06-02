@@ -20,15 +20,15 @@ let handler = async (m, { conn, usedPrefix }) => {
     if (!levelling.canLevelUp(user.level, user.exp, global.multiplier)) {
       let rank = './icon.jpeg'
         {
-          await conn.sendButtonImg(m.chat, await (await fetch(rank)).buffer(), `Level ${name} ${user.level} (${user.exp - min}/${xp})\nNot enough ${max - user.exp} again!`.trim(), '© Ammu', 'AUTO LEVEL UP', `${usedPrefix}on autolevelup`, m)
+          await conn.sendButtonImg(m.chat, await (await fetch(rank)).buffer(), `Level ${name} ${user.level} (${user.exp - min}/${xp})\nNot enough ${max - user.exp} again!`.trim(), '© Terror Queen', 'AUTO LEVEL UP', `${usedPrefix}on autolevelup`, m)
         }
     }
     let before = user.level * 1
     while (levelling.canLevelUp(user.level, user.exp, global.multiplier)) user.level++
     if (before !== user.level) {
-      let rank = './devil.jpeg'
+      let rank = './aslogo.jpg'
         {
-          await conn.sendButtonImg(m.chat, await (await fetch(rank)).buffer(), `${name} Level Up!\n_${before}_ -> ${user.level}`.trim(), '© Ammu', 'AUTO LEVEL UP', `${usedPrefix}on autolevelup`, m)
+          await conn.sendButtonImg(m.chat, await (await fetch(rank)).buffer(), `${name} Level Up!\n_${before}_ -> ${user.level}`.trim(), '© Terror Queen', 'AUTO LEVEL UP', `${usedPrefix}on autolevelup`, m)
         }
     }
   }

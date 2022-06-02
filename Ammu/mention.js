@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) throw `Example:\n${usedPrefix + command} @919656459062`
+  if (!text) throw `Example:\n${usedPrefix + command} @917736771516`
   m.reply(text, false, {
     contextInfo: {
       mentionedJid: conn.parseMention(text)

