@@ -14,8 +14,8 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'Ammu is not active' : banned ? 'you are banned' : 'Ammu here',
-                '© Ammu',
+                isBanned ? 'Terror girl is not active' : banned ? 'you are banned' : 'Terror Girl here',
+                '© Terror Queen',
                 isBanned ? 'Unban' : banned ? 'Bot Owner' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
                 m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Support',
@@ -32,16 +32,16 @@ handler.all = async function (m, { isBlocked }) {
 ├ .join Group Link
 └────
 
-https://github.com/D-E-V-I-L-8/Ammu
-`.trim(), '© Ammu', ' Owner', ',owner', m)
+https://github.com/KING-AS/Terror_Queen
+`.trim(), '© Terror Queen', ' Owner', ',owner', m)
     }
 
         // ketika ada yang invite/kirim link grup di chat pribadi
         if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Open this link')) && !m.isBaileys && !m.isGroup) {
             this.sendButton(m.chat, `┌〔 Invite Bots to Group 〕
 .kick
-    https://github.com/D-E-V-I-L-8/Ammu
-    `.trim(), '© Ammu', ' Owner', ',owner', m)
+    https://github.com/KING-AS/Terror_Queen
+    `.trim(), '© Terror Queen', ' Owner', ',owner', m)
         }
 
     // backup db
@@ -64,7 +64,7 @@ https://github.com/D-E-V-I-L-8/Ammu
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Active during ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Group Only' : 'Public'} | Ammu by DEVILSER`).catch(_ => _)
+        await this.setStatus(`Active during ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Group Only' : 'Public'} | Terror Queen by KING AS `).catch(_ => _)
         setting.status = new Date() * 1
     }
 
